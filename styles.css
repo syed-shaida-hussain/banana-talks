@@ -1,0 +1,65 @@
+:root{
+    --primary-color: #F2C94C;
+}
+
+body{
+    font-family: 'Kalam', cursive;
+}
+
+.heading{
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+textarea{
+    box-sizing: border-box;
+    margin: auto;            
+    width: 50%;
+    padding: 1rem;
+    display: block;
+    height: 20vh;
+}
+
+
+::placeholder {
+    font-family: 'Kalam', cursive;
+    padding-left: 1rem;
+
+}
+
+button{
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    margin-left: 19.7rem;
+    font-size: large;
+}
+
+#output{
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: auto;            
+    width: 50%;
+    display: block;
+    height: 20vh;
+    border: 1.5px solid black;
+}
+
+.output-heading{
+    padding: 1rem;
+    font-size: large;
+    margin-left: 19rem;
+}
+
+.footer{
+    text-align: center;
+    margin: auto;
+    padding: 3rem;
+    background-color: var(--primary-color);
+    display: block;
+} 
