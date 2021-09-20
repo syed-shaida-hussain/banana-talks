@@ -36,8 +36,11 @@ button{
     border: none;
     padding: 1rem 2rem;
     font-family: 'Kalam', cursive;
-    margin-left: 19.7rem;
     font-size: large;
+}
+
+.btn-container{
+    text-align: center;
 }
 
 #output{
@@ -53,7 +56,7 @@ button{
 .output-heading{
     padding: 1rem;
     font-size: large;
-    margin-left: 19rem;
+    text-align: center;
 }
 
 .footer{
